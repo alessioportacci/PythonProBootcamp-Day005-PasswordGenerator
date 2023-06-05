@@ -24,5 +24,4 @@ for n_numbers in range(0, numbers_number):
   password += random.choices(numbers)
 
 random.shuffle(password)
-
 print(''.join(password))
